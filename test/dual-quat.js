@@ -20,4 +20,3 @@ Algebra(3,0,1,()=>{
   canvas.style.width = '100vw';
   canvas.style.height = '100vh';
 });
-

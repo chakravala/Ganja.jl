@@ -2,9 +2,9 @@ module Ganja
 
 using Blink #, Grassmann
 
-jshead = """
+const jshead = """
 <HEAD>
-  <SCRIPT TYPE="text/javascript" SRC="https://unpkg.com/ganja.js"></SCRIPT>
+  <SCRIPT TYPE="text/javascript" SRC="file://$(@__DIR__)/../deps/ganja.js"></SCRIPT>
 </HEAD>
 <BODY>
   <SCRIPT>
@@ -19,12 +19,8 @@ function read_example(filename)
     end
 end
 
-jsend = """
-  </SCRIPT>
-</BODY>
-"""
+const jsend = "\n</SCRIPT>\n</BODY>"
 
 load_example(filename) = loadhtml(Window(),jshead*read_example(filename)*jsend)
-
 
 end # module
