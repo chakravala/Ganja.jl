@@ -1,0 +1,17 @@
+{
+  "name": "Ganja.jl",
+  "version": "0.0.0",
+  "description": "Ganja.jl",
+  "author": "Michael Reed",
+  "license": "MIT", 
+  "dependencies": {
+    "ganja.js": "^1.0.139"
+  },
+  "bugs": {
+    "url": "https://github.com/chakravala/Ganja.jl/issues"
+  },
+  "repository": {
+    "url": "git://github.com/chakravala/Ganja.jl.git",
+    "type": "git"
+  }
+}

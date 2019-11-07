@@ -1,0 +1,8 @@
+name = "Ganja"
+uuid = "0e88e525-0859-4aeb-8382-55d47902100f"
+authors = ["Michael Reed", "Steven De Keninck"]
+version = "0.1.0"
+
+[deps]
+Blink = "ad839575-38b3-5650-b840-f874b8c74a25"
+Grassmann = "4df31cd9-4c27-5bea-88d0-e6a7146666d8"
