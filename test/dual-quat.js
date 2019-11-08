@@ -1,3 +1,6 @@
+var Algebra = Algebra || module.exports;
+document.body.innerHTML = "";
+document.body.style.overflow = "hidden";
 // now create the algebra of choice, and render some elements.
 Algebra(3,0,1,()=>{
 
