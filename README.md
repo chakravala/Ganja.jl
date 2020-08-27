@@ -18,6 +18,16 @@ Inspired by [pyganja](https://github.com/pygae/pyganja): *Visualisation library 
 [![Gitter](https://badges.gitter.im/Grassmann-jl/community.svg)](https://gitter.im/Grassmann-jl/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![BiVector](https://img.shields.io/badge/bivector.net-Discourse-blueviolet)](https://bivector.net)
 
+Basic interoperability proof of conept:
+```Julia
+using Ganja
+w = loadganja()
+loadexample!(w,"sphere.js")
+using Grassmann; basis"++++-"
+no,ni = (v5-v4)/2,v4+v5
+addelement!(w,no-ni/2)
+```
+
 ## ganja.js - Geometric Algebra for javascript.
 
 **G**eometric **A**lgebra - **N**ot **J**ust **A**lgebra
